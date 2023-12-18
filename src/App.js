@@ -7,7 +7,7 @@ function App() {
     <>
      <form>
        <label>enter your name:
-        <input type="text" value={name} onC={(e)=>{setname(e.target.value)}}hange></input>
+        <input type="text" value={name} onChange={(e)=>{setname(e.target.value)}}hange></input>
        </label>
      </form>
     </>
